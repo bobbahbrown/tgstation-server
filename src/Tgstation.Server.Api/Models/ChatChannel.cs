@@ -18,6 +18,11 @@ namespace Tgstation.Server.Api.Models
 		public ulong? DiscordChannelId { get; set; }
 
 		/// <summary>
+		/// The game channel name used by telnet connections
+		/// </summary>
+		public string TelnetChannel { get; set; }
+
+		/// <summary>
 		/// If the <see cref="ChatChannel"/> is an admin channel
 		/// </summary>
 		[Required]
